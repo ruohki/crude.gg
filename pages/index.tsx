@@ -10,19 +10,20 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>&lt;Crude&gt; Raiding guild on EU-Golemagg</title>
-        <meta name="description" content="Guild landingpage" />
+        <title>Welcome to &lt;Crude&gt;</title>
+        <meta name="description" content="Raiding guild on EU-Golemagg<" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main className={styles.main}>
         <Logo />
-        <div style={{ width: 200, marginTop: '2rem', display: "flex", justifyContent: "space-evenly", alignItems: "center" }}>
+        <h1 className={styles.headline}>&lt;Raiding Guild on EU-Golemagg&gt;</h1>
+        <div className={styles.buttons}>
           <a href="https://de.classic.warcraftlogs.com/guild/eu/golemagg/crude">
-            <Image src={wl} alt="Warcraft Logs" width={48} height={48}></Image>
+            <Image className={styles.button} src={wl} alt="Warcraft Logs" width={48} height={48}></Image>
           </a>
           <Link href="/discord">
-            <Image src={discord} alt="Discord" width={48} ></Image>
+            <Image className={styles.button} src={discord} alt="Discord" width={48} ></Image>
           </Link>
         </div>
       </main>

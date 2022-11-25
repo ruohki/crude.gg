@@ -30,7 +30,7 @@ export default () => {
     // You must provide the ref to the element you're tracking the
     // mouse position of
     <div ref={ref}>
-      <svg id="mysvg" width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg id="crude-logo" width="100%" height="100%" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient gradientTransform={rotation} id="gradient" gradientUnits="userSpaceOnUse">
             <stop stopColor="#a9a5e1" />
