@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>&lt;Crude&gt; - Raiding guild on EU-Golemagg</title>
+        <title>&lt;Crude&gt; Raiding guild on EU-Golemagg</title>
         <meta name="description" content="Guild landingpage" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
