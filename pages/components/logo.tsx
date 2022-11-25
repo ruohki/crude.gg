@@ -13,9 +13,11 @@ export default () => {
   React.useEffect(() => {
     const { clientY = 0, clientX = 0  } = mouse;
 
+    //@ts-expect-error Well yea but actually no
     const contentRect = ref?.current?.getBoundingClientRect();
     const midX = contentRect?.x + (contentRect?.width / 2)
     const midY = contentRect?.y + (contentRect?.height / 2)
+    //@ts-expect-error Well yea but actually no
     const angle = Math.atan2(midY - clientY, midX - clientX);
     const angleDeg = angle * 180 / Math.PI
 
