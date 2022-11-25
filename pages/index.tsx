@@ -11,7 +11,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Welcome to &lt;Crude&gt;</title>
-        <meta name="description" content="Raiding guild on EU-Golemagg<" />
+        <meta name="description" content="Raiding guild on EU-Golemagg" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
