@@ -19,7 +19,7 @@ export default function Home() {
         <Logo />
         <h1 className={styles.headline}>&lt;Raiding Guild on EU-Golemagg&gt;</h1>
         <div className={styles.buttons}>
-          <a href="https://de.classic.warcraftlogs.com/guild/eu/golemagg/crude">
+          <a href="https://classic.warcraftlogs.com/guild/eu/golemagg/crude">
             <Image className={styles.button} src={wl} alt="Warcraft Logs" width={48} height={48}></Image>
           </a>
           <Link href="/discord">
